@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39323AB81D71CB9C002DAE00 /* LDMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 39323AB71D71CB9C002DAE00 /* LDMTabBar.m */; };
 		394B33AD1D719DB000C20D41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33AC1D719DB000C20D41 /* main.m */; };
 		394B33B81D719DB000C20D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394B33B71D719DB000C20D41 /* Assets.xcassets */; };
 		394B33BB1D719DB000C20D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394B33B91D719DB000C20D41 /* LaunchScreen.storyboard */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39323AB61D71CB9C002DAE00 /* LDMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMTabBar.h; sourceTree = "<group>"; };
+		39323AB71D71CB9C002DAE00 /* LDMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMTabBar.m; sourceTree = "<group>"; };
 		394B33A81D719DB000C20D41 /* Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394B33AC1D719DB000C20D41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		394B33B71D719DB000C20D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -263,6 +266,8 @@
 		394B33D61D719FF500C20D41 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				39323AB61D71CB9C002DAE00 /* LDMTabBar.h */,
+				39323AB71D71CB9C002DAE00 /* LDMTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -382,6 +387,7 @@
 			files = (
 				394B33E11D71A0C300C20D41 /* LDMTabBarViewController.m in Sources */,
 				394B33AD1D719DB000C20D41 /* main.m in Sources */,
+				39323AB81D71CB9C002DAE00 /* LDMTabBar.m in Sources */,
 				394B33E41D71A25D00C20D41 /* LDMArenaViewController.m in Sources */,
 				394B33E71D71A28000C20D41 /* LDMDiscoveryViewController.m in Sources */,
 				394B33F01D71A2F300C20D41 /* LDMMyLotteryViewController.m in Sources */,
@@ -530,6 +536,7 @@
 				394B33C11D719DB000C20D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
