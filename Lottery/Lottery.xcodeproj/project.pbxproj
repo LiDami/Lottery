@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		394B33AD1D719DB000C20D41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33AC1D719DB000C20D41 /* main.m */; };
+		394B33B81D719DB000C20D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394B33B71D719DB000C20D41 /* Assets.xcassets */; };
+		394B33BB1D719DB000C20D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394B33B91D719DB000C20D41 /* LaunchScreen.storyboard */; };
+		394B33DE1D719FF500C20D41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33DD1D719FF500C20D41 /* AppDelegate.m */; };
+		394B33E11D71A0C300C20D41 /* LDMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33E01D71A0C300C20D41 /* LDMTabBarViewController.m */; };
+		394B33E41D71A25D00C20D41 /* LDMArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33E31D71A25D00C20D41 /* LDMArenaViewController.m */; };
+		394B33E71D71A28000C20D41 /* LDMDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33E61D71A28000C20D41 /* LDMDiscoveryViewController.m */; };
+		394B33EA1D71A29700C20D41 /* LDMHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33E91D71A29700C20D41 /* LDMHistoryViewController.m */; };
+		394B33ED1D71A2CA00C20D41 /* LDMLotteryHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33EC1D71A2CA00C20D41 /* LDMLotteryHallViewController.m */; };
+		394B33F01D71A2F300C20D41 /* LDMMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		394B33A81D719DB000C20D41 /* Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		394B33AC1D719DB000C20D41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		394B33B71D719DB000C20D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		394B33BA1D719DB000C20D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		394B33BC1D719DB000C20D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394B33DC1D719FF500C20D41 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		394B33DD1D719FF500C20D41 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		394B33DF1D71A0C300C20D41 /* LDMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMTabBarViewController.h; sourceTree = "<group>"; };
+		394B33E01D71A0C300C20D41 /* LDMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMTabBarViewController.m; sourceTree = "<group>"; };
+		394B33E21D71A25D00C20D41 /* LDMArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMArenaViewController.h; sourceTree = "<group>"; };
+		394B33E31D71A25D00C20D41 /* LDMArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMArenaViewController.m; sourceTree = "<group>"; };
+		394B33E51D71A28000C20D41 /* LDMDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMDiscoveryViewController.h; sourceTree = "<group>"; };
+		394B33E61D71A28000C20D41 /* LDMDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMDiscoveryViewController.m; sourceTree = "<group>"; };
+		394B33E81D71A29700C20D41 /* LDMHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMHistoryViewController.h; sourceTree = "<group>"; };
+		394B33E91D71A29700C20D41 /* LDMHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMHistoryViewController.m; sourceTree = "<group>"; };
+		394B33EB1D71A2CA00C20D41 /* LDMLotteryHallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMLotteryHallViewController.h; sourceTree = "<group>"; };
+		394B33EC1D71A2CA00C20D41 /* LDMLotteryHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMLotteryHallViewController.m; sourceTree = "<group>"; };
+		394B33EE1D71A2F300C20D41 /* LDMMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMMyLotteryViewController.h; sourceTree = "<group>"; };
+		394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMMyLotteryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		394B33A51D719DB000C20D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394B339F1D719DB000C20D41 = {
+			isa = PBXGroup;
+			children = (
+				394B33AA1D719DB000C20D41 /* Lottery */,
+				394B33A91D719DB000C20D41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		394B33A91D719DB000C20D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				394B33A81D719DB000C20D41 /* Lottery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		394B33AA1D719DB000C20D41 /* Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				394B33C21D719FF500C20D41 /* Classes */,
+				394B33B71D719DB000C20D41 /* Assets.xcassets */,
+				394B33B91D719DB000C20D41 /* LaunchScreen.storyboard */,
+				394B33BC1D719DB000C20D41 /* Info.plist */,
+				394B33AB1D719DB000C20D41 /* Supporting Files */,
+			);
+			path = Lottery;
+			sourceTree = "<group>";
+		};
+		394B33AB1D719DB000C20D41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				394B33AC1D719DB000C20D41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		394B33C21D719FF500C20D41 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				394B33C31D719FF500C20D41 /* Arena(竞技场) */,
+				394B33C71D719FF500C20D41 /* Discovery(发现) */,
+				394B33CB1D719FF500C20D41 /* History(开奖信息) */,
+				394B33CF1D719FF500C20D41 /* LotteryHall(购彩大厅) */,
+				394B33D31D719FF500C20D41 /* Main */,
+				394B33D71D719FF500C20D41 /* MyLottery(我的彩票) */,
+				394B33DB1D719FF500C20D41 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		394B33C31D719FF500C20D41 /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				394B33C41D719FF500C20D41 /* Controller */,
+				394B33C51D719FF500C20D41 /* Model */,
+				394B33C61D719FF500C20D41 /* View */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		394B33C41D719FF500C20D41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				394B33E21D71A25D00C20D41 /* LDMArenaViewController.h */,
+				394B33E31D71A25D00C20D41 /* LDMArenaViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		394B33C51D719FF500C20D41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		394B33C61D719FF500C20D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		394B33C71D719FF500C20D41 /* Discovery(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				394B33C81D719FF500C20D41 /* Controller */,
+				394B33C91D719FF500C20D41 /* Model */,
+				394B33CA1D719FF500C20D41 /* View */,
+			);
+			path = "Discovery(发现)";
+			sourceTree = "<group>";
+		};
+		394B33C81D719FF500C20D41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				394B33E51D71A28000C20D41 /* LDMDiscoveryViewController.h */,
+				394B33E61D71A28000C20D41 /* LDMDiscoveryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		394B33C91D719FF500C20D41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		394B33CA1D719FF500C20D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		394B33CB1D719FF500C20D41 /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				394B33CC1D719FF500C20D41 /* Controller */,
+				394B33CD1D719FF500C20D41 /* Model */,
+				394B33CE1D719FF500C20D41 /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		394B33CC1D719FF500C20D41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				394B33E81D71A29700C20D41 /* LDMHistoryViewController.h */,
+				394B33E91D71A29700C20D41 /* LDMHistoryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		394B33CD1D719FF500C20D41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		394B33CE1D719FF500C20D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		394B33CF1D719FF500C20D41 /* LotteryHall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				394B33D01D719FF500C20D41 /* Controller */,
+				394B33D11D719FF500C20D41 /* Model */,
+				394B33D21D719FF500C20D41 /* View */,
+			);
+			path = "LotteryHall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		394B33D01D719FF500C20D41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				394B33EB1D71A2CA00C20D41 /* LDMLotteryHallViewController.h */,
+				394B33EC1D71A2CA00C20D41 /* LDMLotteryHallViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		394B33D11D719FF500C20D41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		394B33D21D719FF500C20D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		394B33D31D719FF500C20D41 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				394B33D41D719FF500C20D41 /* Controller */,
+				394B33D51D719FF500C20D41 /* Model */,
+				394B33D61D719FF500C20D41 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		394B33D41D719FF500C20D41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				394B33DF1D71A0C300C20D41 /* LDMTabBarViewController.h */,
+				394B33E01D71A0C300C20D41 /* LDMTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		394B33D51D719FF500C20D41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		394B33D61D719FF500C20D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		394B33D71D719FF500C20D41 /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				394B33D81D719FF500C20D41 /* Controller */,
+				394B33D91D719FF500C20D41 /* Model */,
+				394B33DA1D719FF500C20D41 /* View */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		394B33D81D719FF500C20D41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				394B33EE1D71A2F300C20D41 /* LDMMyLotteryViewController.h */,
+				394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		394B33D91D719FF500C20D41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		394B33DA1D719FF500C20D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		394B33DB1D719FF500C20D41 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				394B33DC1D719FF500C20D41 /* AppDelegate.h */,
+				394B33DD1D719FF500C20D41 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		394B33A71D719DB000C20D41 /* Lottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394B33BF1D719DB000C20D41 /* Build configuration list for PBXNativeTarget "Lottery" */;
+			buildPhases = (
+				394B33A41D719DB000C20D41 /* Sources */,
+				394B33A51D719DB000C20D41 /* Frameworks */,
+				394B33A61D719DB000C20D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lottery;
+			productName = Lottery;
+			productReference = 394B33A81D719DB000C20D41 /* Lottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		394B33A01D719DB000C20D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LDM;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李大米";
+				TargetAttributes = {
+					394B33A71D719DB000C20D41 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = UH8MXR82KA;
+					};
+				};
+			};
+			buildConfigurationList = 394B33A31D719DB000C20D41 /* Build configuration list for PBXProject "Lottery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 394B339F1D719DB000C20D41;
+			productRefGroup = 394B33A91D719DB000C20D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				394B33A71D719DB000C20D41 /* Lottery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		394B33A61D719DB000C20D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394B33BB1D719DB000C20D41 /* LaunchScreen.storyboard in Resources */,
+				394B33B81D719DB000C20D41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		394B33A41D719DB000C20D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394B33E11D71A0C300C20D41 /* LDMTabBarViewController.m in Sources */,
+				394B33AD1D719DB000C20D41 /* main.m in Sources */,
+				394B33E41D71A25D00C20D41 /* LDMArenaViewController.m in Sources */,
+				394B33E71D71A28000C20D41 /* LDMDiscoveryViewController.m in Sources */,
+				394B33F01D71A2F300C20D41 /* LDMMyLotteryViewController.m in Sources */,
+				394B33DE1D719FF500C20D41 /* AppDelegate.m in Sources */,
+				394B33ED1D71A2CA00C20D41 /* LDMLotteryHallViewController.m in Sources */,
+				394B33EA1D71A29700C20D41 /* LDMHistoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		394B33B91D719DB000C20D41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394B33BA1D719DB000C20D41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		394B33BD1D719DB000C20D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		394B33BE1D719DB000C20D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		394B33C01D719DB000C20D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lottery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lidami.Lottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		394B33C11D719DB000C20D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lottery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lidami.Lottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		394B33A31D719DB000C20D41 /* Build configuration list for PBXProject "Lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394B33BD1D719DB000C20D41 /* Debug */,
+				394B33BE1D719DB000C20D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394B33BF1D719DB000C20D41 /* Build configuration list for PBXNativeTarget "Lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394B33C01D719DB000C20D41 /* Debug */,
+				394B33C11D719DB000C20D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 394B33A01D719DB000C20D41 /* Project object */;
+}
