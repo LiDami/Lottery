@@ -13,6 +13,7 @@
 #import "LDMLotteryHallViewController.h"
 #import "LDMMyLotteryViewController.h"
 #import "LDMTabBar.h"
+#import "LDMNavigationController.h"
 
 @interface LDMTabBarViewController ()<LDMTabBarDelegate>
 
@@ -77,24 +78,24 @@
     
 //    购彩大厅
     LDMLotteryHallViewController * hall = [[LDMLotteryHallViewController alloc]init];
-    [self setOneChildViewController:hall andImage:[UIImage imageNamed:@"TabBar_LotteryHall_new"] andSelIamge:[UIImage imageNamed:@"TabBar_LotteryHall_selected_new"]];
+    [self setOneChildViewController:hall andImage:[UIImage imageNamed:@"TabBar_LotteryHall_new"] andSelIamge:[UIImage imageNamed:@"TabBar_LotteryHall_selected_new"] andTitle:@"购彩大厅"];
     
 //    竞技场
     LDMArenaViewController *arena = [[LDMArenaViewController alloc]init];
-    [self setOneChildViewController:arena andImage:[UIImage imageNamed:@"TabBar_Arena_new"] andSelIamge:[UIImage imageNamed:@"TabBar_Arena_selected_new"]];
+    [self setOneChildViewController:arena andImage:[UIImage imageNamed:@"TabBar_Arena_new"] andSelIamge:[UIImage imageNamed:@"TabBar_Arena_selected_new"] andTitle:@"竞技场"];
     
 //    发现
     LDMDiscoveryViewController *dis = [[LDMDiscoveryViewController alloc]init];
-    [self setOneChildViewController:dis andImage:[UIImage imageNamed:@"TabBar_Discovery_new"] andSelIamge:[UIImage imageNamed:@"TabBar_Discovery_selected_new"]];
+    [self setOneChildViewController:dis andImage:[UIImage imageNamed:@"TabBar_Discovery_new"] andSelIamge:[UIImage imageNamed:@"TabBar_Discovery_selected_new"] andTitle:@"发现"];
     
 //    开奖信息
     LDMHistoryViewController *his = [[LDMHistoryViewController alloc]init];
-    [self setOneChildViewController:his andImage:[UIImage imageNamed:@"TabBar_History_new"] andSelIamge:[UIImage imageNamed:@"TabBar_History_selected_new"]];
+    [self setOneChildViewController:his andImage:[UIImage imageNamed:@"TabBar_History_new"] andSelIamge:[UIImage imageNamed:@"TabBar_History_selected_new"] andTitle:@"开奖信息"];
     
     
 //    我的彩票
     LDMMyLotteryViewController * myLott = [[LDMMyLotteryViewController alloc]init];
-    [self setOneChildViewController:myLott andImage:[UIImage imageNamed:@"TabBar_MyLottery_new"] andSelIamge:[UIImage imageNamed:@"TabBar_MyLottery_selected_new"]];
+    [self setOneChildViewController:myLott andImage:[UIImage imageNamed:@"TabBar_MyLottery_new"] andSelIamge:[UIImage imageNamed:@"TabBar_MyLottery_selected_new"] andTitle:@"我的彩票"];
     
     
 }
@@ -106,9 +107,18 @@
  *  @param image    显示的图片
  *  @param selImage 高亮的图片
  */
--(void)setOneChildViewController:(UIViewController *)vc andImage:(UIImage *)image andSelIamge:(UIImage *)selImage{
+-(void)setOneChildViewController:(UIViewController *)vc andImage:(UIImage *)image andSelIamge:(UIImage *)selImage andTitle:(NSString *)title{
 
-    UINavigationController *nc = [[UINavigationController alloc]initWithRootViewController:vc];
+//    设置导航bar的title
+    vc.navigationItem.title = title;
+//    这里用多态
+    UINavigationController *nc = [[LDMNavigationController alloc]initWithRootViewController:vc];
+    
+//    竞技场的navigationBar是自定义的颜色
+    if ([vc isKindOfClass:[LDMArenaViewController class]]) {
+        nc = [[UINavigationController alloc]initWithRootViewController:vc];
+    }
+    
     
     nc.tabBarItem.image = image;
     nc.tabBarItem.selectedImage = selImage;

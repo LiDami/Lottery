@@ -18,6 +18,8 @@
 		394B33EA1D71A29700C20D41 /* LDMHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33E91D71A29700C20D41 /* LDMHistoryViewController.m */; };
 		394B33ED1D71A2CA00C20D41 /* LDMLotteryHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33EC1D71A2CA00C20D41 /* LDMLotteryHallViewController.m */; };
 		394B33F01D71A2F300C20D41 /* LDMMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */; };
+		39AD58A61D7287AD00C9818C /* LDMTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AD58A51D7287AD00C9818C /* LDMTabBarButton.m */; };
+		39AD58A91D729A3D00C9818C /* LDMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AD58A81D729A3D00C9818C /* LDMNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,10 @@
 		394B33EC1D71A2CA00C20D41 /* LDMLotteryHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMLotteryHallViewController.m; sourceTree = "<group>"; };
 		394B33EE1D71A2F300C20D41 /* LDMMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMMyLotteryViewController.h; sourceTree = "<group>"; };
 		394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMMyLotteryViewController.m; sourceTree = "<group>"; };
+		39AD58A41D7287AD00C9818C /* LDMTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMTabBarButton.h; sourceTree = "<group>"; };
+		39AD58A51D7287AD00C9818C /* LDMTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMTabBarButton.m; sourceTree = "<group>"; };
+		39AD58A71D729A3D00C9818C /* LDMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMNavigationController.h; sourceTree = "<group>"; };
+		39AD58A81D729A3D00C9818C /* LDMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +100,12 @@
 		394B33C21D719FF500C20D41 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				394B33D71D719FF500C20D41 /* MyLottery(我的彩票) */,
 				394B33C31D719FF500C20D41 /* Arena(竞技场) */,
 				394B33C71D719FF500C20D41 /* Discovery(发现) */,
 				394B33CB1D719FF500C20D41 /* History(开奖信息) */,
 				394B33CF1D719FF500C20D41 /* LotteryHall(购彩大厅) */,
 				394B33D31D719FF500C20D41 /* Main */,
-				394B33D71D719FF500C20D41 /* MyLottery(我的彩票) */,
 				394B33DB1D719FF500C20D41 /* Other */,
 			);
 			path = Classes;
@@ -252,6 +258,8 @@
 			children = (
 				394B33DF1D71A0C300C20D41 /* LDMTabBarViewController.h */,
 				394B33E01D71A0C300C20D41 /* LDMTabBarViewController.m */,
+				39AD58A71D729A3D00C9818C /* LDMNavigationController.h */,
+				39AD58A81D729A3D00C9818C /* LDMNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +276,8 @@
 			children = (
 				39323AB61D71CB9C002DAE00 /* LDMTabBar.h */,
 				39323AB71D71CB9C002DAE00 /* LDMTabBar.m */,
+				39AD58A41D7287AD00C9818C /* LDMTabBarButton.h */,
+				39AD58A51D7287AD00C9818C /* LDMTabBarButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -387,7 +397,9 @@
 			files = (
 				394B33E11D71A0C300C20D41 /* LDMTabBarViewController.m in Sources */,
 				394B33AD1D719DB000C20D41 /* main.m in Sources */,
+				39AD58A91D729A3D00C9818C /* LDMNavigationController.m in Sources */,
 				39323AB81D71CB9C002DAE00 /* LDMTabBar.m in Sources */,
+				39AD58A61D7287AD00C9818C /* LDMTabBarButton.m in Sources */,
 				394B33E41D71A25D00C20D41 /* LDMArenaViewController.m in Sources */,
 				394B33E71D71A28000C20D41 /* LDMDiscoveryViewController.m in Sources */,
 				394B33F01D71A2F300C20D41 /* LDMMyLotteryViewController.m in Sources */,

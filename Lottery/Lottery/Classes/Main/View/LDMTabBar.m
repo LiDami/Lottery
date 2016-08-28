@@ -7,6 +7,7 @@
 //
 
 #import "LDMTabBar.h"
+#import "LDMTabBarButton.h"
 
 @interface LDMTabBar()
 
@@ -25,7 +26,7 @@
     int i = 0;
 //注意，如果直接跳过了forin循环，说明items中没有值，这个项目的原因是没有对items进行懒加载。！！
     for (UITabBarItem *item in items) {
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+        LDMTabBarButton *btn = [LDMTabBarButton buttonWithType:UIButtonTypeCustom];
         btn.tag = i;
         
         [btn setBackgroundImage:item.image forState:UIControlStateNormal];
@@ -33,7 +34,7 @@
         
         [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchDown];
 //        取消按钮按压时的样式
-        btn.adjustsImageWhenHighlighted = NO;
+//        btn.adjustsImageWhenHighlighted = NO;
         
         i++;
         if (btn.tag == 0) {
