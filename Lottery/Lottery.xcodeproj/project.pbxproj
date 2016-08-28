@@ -18,6 +18,7 @@
 		394B33EA1D71A29700C20D41 /* LDMHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33E91D71A29700C20D41 /* LDMHistoryViewController.m */; };
 		394B33ED1D71A2CA00C20D41 /* LDMLotteryHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33EC1D71A2CA00C20D41 /* LDMLotteryHallViewController.m */; };
 		394B33F01D71A2F300C20D41 /* LDMMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */; };
+		398563841D73195C00BE2799 /* UIImage+ActivityImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 398563831D73195C00BE2799 /* UIImage+ActivityImage.m */; };
 		39AD58A61D7287AD00C9818C /* LDMTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AD58A51D7287AD00C9818C /* LDMTabBarButton.m */; };
 		39AD58A91D729A3D00C9818C /* LDMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AD58A81D729A3D00C9818C /* LDMNavigationController.m */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,8 @@
 		394B33EC1D71A2CA00C20D41 /* LDMLotteryHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMLotteryHallViewController.m; sourceTree = "<group>"; };
 		394B33EE1D71A2F300C20D41 /* LDMMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMMyLotteryViewController.h; sourceTree = "<group>"; };
 		394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMMyLotteryViewController.m; sourceTree = "<group>"; };
+		398563821D73195C00BE2799 /* UIImage+ActivityImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ActivityImage.h"; sourceTree = "<group>"; };
+		398563831D73195C00BE2799 /* UIImage+ActivityImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ActivityImage.m"; sourceTree = "<group>"; };
 		39AD58A41D7287AD00C9818C /* LDMTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMTabBarButton.h; sourceTree = "<group>"; };
 		39AD58A51D7287AD00C9818C /* LDMTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMTabBarButton.m; sourceTree = "<group>"; };
 		39AD58A71D729A3D00C9818C /* LDMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMNavigationController.h; sourceTree = "<group>"; };
@@ -320,6 +323,8 @@
 			children = (
 				394B33DC1D719FF500C20D41 /* AppDelegate.h */,
 				394B33DD1D719FF500C20D41 /* AppDelegate.m */,
+				398563821D73195C00BE2799 /* UIImage+ActivityImage.h */,
+				398563831D73195C00BE2799 /* UIImage+ActivityImage.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -401,6 +406,7 @@
 				39323AB81D71CB9C002DAE00 /* LDMTabBar.m in Sources */,
 				39AD58A61D7287AD00C9818C /* LDMTabBarButton.m in Sources */,
 				394B33E41D71A25D00C20D41 /* LDMArenaViewController.m in Sources */,
+				398563841D73195C00BE2799 /* UIImage+ActivityImage.m in Sources */,
 				394B33E71D71A28000C20D41 /* LDMDiscoveryViewController.m in Sources */,
 				394B33F01D71A2F300C20D41 /* LDMMyLotteryViewController.m in Sources */,
 				394B33DE1D719FF500C20D41 /* AppDelegate.m in Sources */,
