@@ -10,6 +10,7 @@
 
 @interface UIImage (ActivityImage)
 
+//给一个原始的图片，生成一个原始的无渲染的图片
 +(instancetype)imageWithOriginalImage:(NSString *)imageName;
 
 @end

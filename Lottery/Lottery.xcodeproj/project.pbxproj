@@ -19,6 +19,9 @@
 		394B33ED1D71A2CA00C20D41 /* LDMLotteryHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33EC1D71A2CA00C20D41 /* LDMLotteryHallViewController.m */; };
 		394B33F01D71A2F300C20D41 /* LDMMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */; };
 		398563841D73195C00BE2799 /* UIImage+ActivityImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 398563831D73195C00BE2799 /* UIImage+ActivityImage.m */; };
+		398563871D73B9ED00BE2799 /* LDMCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398563861D73B9ED00BE2799 /* LDMCoverView.m */; };
+		3985638A1D73BA0A00BE2799 /* LDMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398563891D73BA0A00BE2799 /* LDMMenuView.m */; };
+		3985638C1D73C4C200BE2799 /* LDMMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3985638B1D73C4C200BE2799 /* LDMMenuView.xib */; };
 		39AD58A61D7287AD00C9818C /* LDMTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AD58A51D7287AD00C9818C /* LDMTabBarButton.m */; };
 		39AD58A91D729A3D00C9818C /* LDMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AD58A81D729A3D00C9818C /* LDMNavigationController.m */; };
 /* End PBXBuildFile section */
@@ -47,6 +50,11 @@
 		394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMMyLotteryViewController.m; sourceTree = "<group>"; };
 		398563821D73195C00BE2799 /* UIImage+ActivityImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ActivityImage.h"; sourceTree = "<group>"; };
 		398563831D73195C00BE2799 /* UIImage+ActivityImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ActivityImage.m"; sourceTree = "<group>"; };
+		398563851D73B9ED00BE2799 /* LDMCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMCoverView.h; sourceTree = "<group>"; };
+		398563861D73B9ED00BE2799 /* LDMCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMCoverView.m; sourceTree = "<group>"; };
+		398563881D73BA0A00BE2799 /* LDMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMMenuView.h; sourceTree = "<group>"; };
+		398563891D73BA0A00BE2799 /* LDMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMMenuView.m; sourceTree = "<group>"; };
+		3985638B1D73C4C200BE2799 /* LDMMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDMMenuView.xib; sourceTree = "<group>"; };
 		39AD58A41D7287AD00C9818C /* LDMTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMTabBarButton.h; sourceTree = "<group>"; };
 		39AD58A51D7287AD00C9818C /* LDMTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMTabBarButton.m; sourceTree = "<group>"; };
 		39AD58A71D729A3D00C9818C /* LDMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMNavigationController.h; sourceTree = "<group>"; };
@@ -242,6 +250,11 @@
 		394B33D21D719FF500C20D41 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				398563851D73B9ED00BE2799 /* LDMCoverView.h */,
+				398563861D73B9ED00BE2799 /* LDMCoverView.m */,
+				398563881D73BA0A00BE2799 /* LDMMenuView.h */,
+				398563891D73BA0A00BE2799 /* LDMMenuView.m */,
+				3985638B1D73C4C200BE2799 /* LDMMenuView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,12 +334,20 @@
 		394B33DB1D719FF500C20D41 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				3985638D1D73D56600BE2799 /* Category */,
 				394B33DC1D719FF500C20D41 /* AppDelegate.h */,
 				394B33DD1D719FF500C20D41 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3985638D1D73D56600BE2799 /* Category */ = {
+			isa = PBXGroup;
+			children = (
 				398563821D73195C00BE2799 /* UIImage+ActivityImage.h */,
 				398563831D73195C00BE2799 /* UIImage+ActivityImage.m */,
 			);
-			path = Other;
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,6 +411,7 @@
 			files = (
 				394B33BB1D719DB000C20D41 /* LaunchScreen.storyboard in Resources */,
 				394B33B81D719DB000C20D41 /* Assets.xcassets in Resources */,
+				3985638C1D73C4C200BE2799 /* LDMMenuView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +431,8 @@
 				398563841D73195C00BE2799 /* UIImage+ActivityImage.m in Sources */,
 				394B33E71D71A28000C20D41 /* LDMDiscoveryViewController.m in Sources */,
 				394B33F01D71A2F300C20D41 /* LDMMyLotteryViewController.m in Sources */,
+				3985638A1D73BA0A00BE2799 /* LDMMenuView.m in Sources */,
+				398563871D73B9ED00BE2799 /* LDMCoverView.m in Sources */,
 				394B33DE1D719FF500C20D41 /* AppDelegate.m in Sources */,
 				394B33ED1D71A2CA00C20D41 /* LDMLotteryHallViewController.m in Sources */,
 				394B33EA1D71A29700C20D41 /* LDMHistoryViewController.m in Sources */,
