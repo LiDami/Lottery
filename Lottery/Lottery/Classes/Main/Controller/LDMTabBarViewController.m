@@ -14,6 +14,7 @@
 #import "LDMMyLotteryViewController.h"
 #import "LDMTabBar.h"
 #import "LDMNavigationController.h"
+#import "LDMArenaNavController.h"
 
 @interface LDMTabBarViewController ()<LDMTabBarDelegate>
 
@@ -116,7 +117,7 @@
     
 //    竞技场的navigationBar是自定义的颜色
     if ([vc isKindOfClass:[LDMArenaViewController class]]) {
-        nc = [[UINavigationController alloc]initWithRootViewController:vc];
+        nc = [[LDMArenaNavController alloc]initWithRootViewController:vc];
     }
     
     
