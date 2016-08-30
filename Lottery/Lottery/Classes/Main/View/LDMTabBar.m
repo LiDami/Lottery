@@ -8,6 +8,7 @@
 
 #import "LDMTabBar.h"
 #import "LDMTabBarButton.h"
+#import "UIView+Frame.h"
 
 @interface LDMTabBar()
 
@@ -67,8 +68,9 @@
     
     CGFloat x = 0;
     CGFloat y = 0;
-    CGFloat w = self.bounds.size.width / count;
-    CGFloat h = self.bounds.size.height;
+//    使用分类设置self.width和self.height.这样更快。UIview的分类
+    CGFloat w = self.width / count;
+    CGFloat h = self.height;
     
     for (int i = 0; i < count; i++) {
         UIButton *btn = self.subviews[i];

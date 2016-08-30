@@ -35,8 +35,15 @@
  *  menu的hidden
  *
  *  @param point 隐藏的传入的点
+ 
+相当于：
+ void(^completion)(){
+ 
+ [LDMCoverView hidden];
+ }
+ 
  */
--(void)hiddenInPoint:(CGPoint)point{
+-(void)hiddenInPoint:(CGPoint)point completion:(void (^ __nullable)())completion{
 
     [UIView animateWithDuration:1 animations:^{
 //        平移+缩放
@@ -47,6 +54,9 @@
     } completion:^(BOOL finished) {
         
         [self removeFromSuperview];
+//        调用block
+        completion();
+        
     }];
 }
 

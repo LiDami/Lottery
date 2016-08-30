@@ -18,6 +18,7 @@
 		394B33EA1D71A29700C20D41 /* LDMHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33E91D71A29700C20D41 /* LDMHistoryViewController.m */; };
 		394B33ED1D71A2CA00C20D41 /* LDMLotteryHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33EC1D71A2CA00C20D41 /* LDMLotteryHallViewController.m */; };
 		394B33F01D71A2F300C20D41 /* LDMMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */; };
+		39841BF71D75353200E25F6B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 39841BF61D75353200E25F6B /* UIView+Frame.m */; };
 		398563841D73195C00BE2799 /* UIImage+ActivityImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 398563831D73195C00BE2799 /* UIImage+ActivityImage.m */; };
 		398563871D73B9ED00BE2799 /* LDMCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398563861D73B9ED00BE2799 /* LDMCoverView.m */; };
 		3985638A1D73BA0A00BE2799 /* LDMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398563891D73BA0A00BE2799 /* LDMMenuView.m */; };
@@ -48,6 +49,8 @@
 		394B33EC1D71A2CA00C20D41 /* LDMLotteryHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMLotteryHallViewController.m; sourceTree = "<group>"; };
 		394B33EE1D71A2F300C20D41 /* LDMMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMMyLotteryViewController.h; sourceTree = "<group>"; };
 		394B33EF1D71A2F300C20D41 /* LDMMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMMyLotteryViewController.m; sourceTree = "<group>"; };
+		39841BF51D75353200E25F6B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		39841BF61D75353200E25F6B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		398563821D73195C00BE2799 /* UIImage+ActivityImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ActivityImage.h"; sourceTree = "<group>"; };
 		398563831D73195C00BE2799 /* UIImage+ActivityImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ActivityImage.m"; sourceTree = "<group>"; };
 		398563851D73B9ED00BE2799 /* LDMCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMCoverView.h; sourceTree = "<group>"; };
@@ -346,6 +349,8 @@
 			children = (
 				398563821D73195C00BE2799 /* UIImage+ActivityImage.h */,
 				398563831D73195C00BE2799 /* UIImage+ActivityImage.m */,
+				39841BF51D75353200E25F6B /* UIView+Frame.h */,
+				39841BF61D75353200E25F6B /* UIView+Frame.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -425,6 +430,7 @@
 				394B33E11D71A0C300C20D41 /* LDMTabBarViewController.m in Sources */,
 				394B33AD1D719DB000C20D41 /* main.m in Sources */,
 				39AD58A91D729A3D00C9818C /* LDMNavigationController.m in Sources */,
+				39841BF71D75353200E25F6B /* UIView+Frame.m in Sources */,
 				39323AB81D71CB9C002DAE00 /* LDMTabBar.m in Sources */,
 				39AD58A61D7287AD00C9818C /* LDMTabBarButton.m in Sources */,
 				394B33E41D71A25D00C20D41 /* LDMArenaViewController.m in Sources */,

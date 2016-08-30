@@ -50,11 +50,21 @@
 #pragma mark - 实现点击事件的代理
 -(void)HiddenCoverMenuClick:(LDMMenuView *)menuView{
 
-//   隐藏cover
-    [LDMCoverView hidden];
-    
 //    隐藏menu，这里用对象方法，因为对象能设置隐藏中的属性值
-    [menuView hiddenInPoint:CGPointMake(44, 44)];
+//    这里使用block，即menu完成后要做的事情，在hiddenInPoint定义的地方还需要调用block
+    /*下面的代码相当于这样：
+     
+     void(^completion)(){
+     
+        [LDMCoverView hidden];
+     }
+     
+     */
+    
+    [menuView hiddenInPoint:CGPointMake(44, 44) completion:^{
+//   隐藏cover
+        [LDMCoverView hidden];
+    }];
     
     
 
